@@ -59,9 +59,7 @@ function spawnPromise(gen) {
           next(() => it.thrown(err))
         })
     }
-
     next(() => it.next(undefined))
-    // const next =
   })
 }
 
